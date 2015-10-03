@@ -2,7 +2,7 @@ safe: false
 auto: true
 server: true
 permalink: "/:year/:month/:day/:title"
-baseurl: "http://satanas.github.io/site"
+baseurl: "" #"http://satanas.github.io/site"
 name: "Hell"
 description: "This is the art of ruin"
 markdown: rdiscount
