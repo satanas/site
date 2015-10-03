@@ -9,3 +9,6 @@ markdown: rdiscount
 exclude:
 - .gitignore
 - README.md
+- NOTES.md
+- Rakefile
+- Gemfile*
