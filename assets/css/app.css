@@ -1,0 +1,33 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight:bold;
+  line-height: 1.15em;
+}
+
+@media only screen and (max-width: 40em) {
+}
+
+#wrapper {
+  margin: 0px;
+  padding: 0px;
+  /*
+  padding-left: 10px;
+  padding-right: 10px;
+  */
+}
+
+p.details {
+  margin: 0px auto;
+  font-size: 0.8em;
+  color: gray;
+}
+
+p.title {
+  margin: 8px auto;
+  font-size: 1.6em;
+  font-weight: bold;
+}
