@@ -11,8 +11,8 @@ last_update: October, 2015
     </div>
   </div>
 
-  {% for game_hash in site.data.games %}
-  {% assign game = game_hash[1] %}
+  {% for id in site.data.games.index %}
+  {% assign game = site.data.games[id.name] %}
   <div class="row image specs">
     <div class="small-12 medium-6 columns image-container">
       <img class="feature" src="http://js13kgames.com/games/please-die/__big.jpg" />
