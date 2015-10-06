@@ -3,12 +3,39 @@
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2.3em;
   font-weight:bold;
-  line-height: 1.15em;
+  line-height: 1.05em;
+  text-align: center;
+  margin: 0.5em auto;
 }
 
+/* Small screens */
 @media only screen and (max-width: 40em) {
+  h1 {
+    font-size: 1.8em;
+    border-bottom: 1px solid #eaeaea;
+  }
+  img.feature {
+    padding: 0;
+  }
+}
+
+/* Medium screens */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  h1 {
+    font-size: 2.1em;
+  }
+}
+
+/* Large screens */
+@media only screen and (min-width: 64.063em) {
+  h1 {
+    font-size: 2.8em;
+  }
+  img.feature {
+    padding: 0.8em 0;
+  }
 }
 
 #wrapper {
@@ -20,6 +47,10 @@ h1 {
   padding-left: 10px;
   padding-right: 10px;
   */
+}
+
+.intro {
+  margin-bottom: 1.8em;
 }
 
 p.details {
