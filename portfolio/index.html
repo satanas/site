@@ -1,0 +1,35 @@
+---
+layout: base
+title: "Portfolio"
+---
+
+<div class="columns">
+  <div class="row">
+    <div class="intro columns">
+      <p>Welcome to my portfolio! I you will see the games I've developed so far </p>
+    </div>
+  </div>
+
+  {% for game_hash in site.data.games %}
+  {% assign game = game_hash[1] %}
+  <div class="row image specs">
+    <div class="small-12 medium-6 columns image-container">
+      <img class="feature" src="http://js13kgames.com/games/please-die/__big.jpg" />
+    </div>
+    <div class="small-12 medium-6 columns">
+      <p class="title">{{ game.title }}</p>
+      <p class="spec">Genre: {{ game.genre }}</p>
+      <p class="spec">Platforms: {{ game.platforms }}</p>
+      <p class="spec">Software: {{ game.software }}</p>
+      <p class="spec">Release date: {{ game.release_date }}</p>
+    </div>
+  </div>
+
+  <div class="row description">
+    <div class="columns">
+      {{ game.description | liquify }}
+    </div>
+  </div>
+  {% endfor %}
+
+</div>
