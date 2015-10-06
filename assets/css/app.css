@@ -78,6 +78,8 @@ p.spec {
   color: gray;
 }
 
-.description {
+.row.description {
   border-bottom: 1px solid #eee;
+  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
