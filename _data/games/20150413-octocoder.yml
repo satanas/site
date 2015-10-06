@@ -1,0 +1,17 @@
+title: Octocoder
+genre: Puzzle
+platforms: Web
+software: Phaser, Gimp, JavaScript
+release_date: April 13th, 2015
+description: |
+  <p>Octocoder is a tetris-like game where you have to collect code blocks and deploy them into applications. 
+  Combine the blocks to build popular applications and earn lots of points. It was born as a fork of 
+  <a href="https://github.com/ogoshen/game-off-2012">Octocat Jump</a> and was my entry for the 
+  <a href="https://github.com/blog/1972-the-game-has-changed">Github Game Off 2015</a> competition.</p>
+
+  <p>It works in Chrome, Firefox and Safari. It probably works in other browsers but I haven't tested.</p>
+
+  <p>
+    <a href="http://satanas.github.io/game-off-2015/" alt="Play it">Play it</a> – 
+    <a href="https://github.com/satanas/game-off-2015" alt="Source code">Source code</a>
+  </p>
