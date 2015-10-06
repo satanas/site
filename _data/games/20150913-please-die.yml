@@ -3,6 +3,7 @@ genre: Platformer
 platforms: Web
 software: Only Javascript
 release_date: September 13th, 2015
+image: please-die-screenshot.png
 description: |
   <p>This is my entry for the <a href="http://js13kgames.com" alt="Js13kGames">Js13kGames compo 2015</a>, a JavaScript coding competition for HTML5 Game Developers 
   where the file size limit is set to a maximum of 13 kilobytes (compressed and minified). 
@@ -11,9 +12,9 @@ description: |
   <p>In typical platformers you have to avoid enemies, avoid pits, collect stuffs, stay alive as long as 
   possible and be happy. <strong>Please, die</strong> is not the typical platformer. Things are kind of reversed here, so 
   you have to help our little character with a very simple task: <em>to die</em>.</p>
-  
+
   <p>Tested on Chrome and Firefox. Other browsers must work too but I haven't tested.</p>
-  
+
   <p>
     <a href="http://satanas.github.io/please-die" alt="Play it">Play it</a> – 
     <a href="https://github.com/satanas/please-die" alt="Source code">Source code</a>

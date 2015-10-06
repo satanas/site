@@ -3,6 +3,7 @@ genre: Puzzle
 platforms: Web
 software: Phaser, Gimp, JavaScript
 release_date: April 13th, 2015
+image: octocoder-screenshot.png
 description: |
   <p>Octocoder is a tetris-like game where you have to collect code blocks and deploy them into applications. 
   Combine the blocks to build popular applications and earn lots of points. It was born as a fork of 

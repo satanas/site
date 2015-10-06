@@ -15,7 +15,7 @@ last_update: October, 2015
   {% assign game = site.data.games[id.name] %}
   <div class="row image specs">
     <div class="small-12 medium-6 columns image-container">
-      <img class="feature" src="http://js13kgames.com/games/please-die/__big.jpg" />
+      <img class="feature" src="../assets/images/{{ game.image }}" />
     </div>
     <div class="small-12 medium-6 columns">
       <p class="title">{{ game.title }}</p>
@@ -28,7 +28,7 @@ last_update: October, 2015
 
   <div class="row description">
     <div class="columns">
-      {{ game.description | liquify }}
+      {{ game.description }}
     </div>
   </div>
   {% endfor %}
