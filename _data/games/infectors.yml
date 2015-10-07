@@ -1,0 +1,22 @@
+title: Infectors
+genre: Puzzle
+platforms: Web, Firefox Marketplace
+software: Phaser, Gimp, Javascript
+release_date: March 14th, 2015
+image: infectors-screenshot.png
+description: |
+  <p><strong>Infectors</strong> is a sokoban-like game where you have to solve puzzles pushing cryogenic capsules 
+  toward viruses to capture them and save the earth from the invasion. At the moment the game count with 21 levels.</p>
+
+  <p>This version is a <a href="http://phaser.io" alt="Phaser">Phaser</a> port from the original version developed in 
+  <a href="http://pygame.org" alt="Pygame">Pygame</a> in December 2007.</p>
+
+  <p>This game is licensed under the <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" alt="License">Creative 
+  Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a></p>
+
+  <p>It works in Chrome and Firefox. It probably works in other browsers but I haven't tested.</p>
+
+  <p>
+    <a href="http://satanas.github.io/infectors/" alt="Play it">Play it</a> – 
+    <a href="https://github.com/satanas/infectors" alt="Source code">Source code</a>
+  </p>
