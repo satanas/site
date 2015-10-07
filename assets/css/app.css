@@ -80,6 +80,12 @@ p.spec {
 
 .row.description {
   border-bottom: 1px solid #eee;
-  margin-bottom: 32px;
+  margin-bottom: 32px; /* Fallback */
   margin-bottom: 2rem;
+}
+
+.last-update {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #ccc;
 }
