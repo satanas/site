@@ -5,7 +5,7 @@ software: Only Javascript
 release_date: September 13th, 2015
 image: please-die-screenshot.png
 description: |
-  <p>This is my entry for the <a href="http://js13kgames.com" alt="Js13kGames">Js13kGames compo 2015</a>, a JavaScript coding competition for HTML5 Game Developers 
+  <p>This is my entry for the <a href="http://js13kgames.com" alt="Js13kGames">Js13kGames compo 2015</a>, a Javascript coding competition for HTML5 Game Developers 
   where the file size limit is set to a maximum of 13 kilobytes (compressed and minified). 
   The theme for this year was <strong>Reversed</strong> and it took me ~113 hours to complete the game with a final size is of <strong>11848 bytes</strong>.</p>
 
