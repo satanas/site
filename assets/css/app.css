@@ -23,7 +23,7 @@ h1 {
     padding-bottom: 0.4em;
     margin-top: 0.4em;
     margin-bottom: 0;
-    border-bottom: 1px solid #eaeaea;
+    /*border-bottom: 1px solid #eaeaea;*/
   }
   img.feature {
     padding: 0;
@@ -89,3 +89,21 @@ p.spec {
   font-size: 0.75rem;
   color: #ccc;
 }
+
+/*
+.top-bar {
+  background: none;
+}
+
+.top-bar .name h1 {
+  text-align: left;
+}
+
+.top-bar .name h1 a {
+  color: #999;
+}
+
+.menu-icon {
+  background-color: #222;
+}
+*/

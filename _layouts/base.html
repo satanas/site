@@ -9,8 +9,12 @@
     <link rel="stylesheet" href="../assets/css/normalize.css">
     <link rel="stylesheet" href="../assets/css/foundation.css">
     <link rel="stylesheet" href="../assets/css/app.css">
-    <! --script src="../assets/js/foundation.js"></script -->
-    <!-- script src="../assets/js/foundation.topbar.js"></script -->
+
+    <script src="../assets/js/modernizr.js"></script>
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/foundation.js"></script>
+    <script src="../assets/js/foundation.topbar.js"></script>
+    <!-- script src="../assets/js/foundation.offcanvas.js"></script -->
 
     <title>{{ page.title }}</title>
   </head>
@@ -24,4 +28,8 @@
       </div>
     </div>
   </body>
+
+  <script>
+    $(document).foundation();
+  </script>
 </html>
