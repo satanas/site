@@ -1,28 +1,29 @@
 ---
 layout: base
-title: "Portfolio"
+title: "Game Development Portfolio"
 last_update: October, 2015
 ---
 
 <div class="columns">
   <div class="row">
     <div class="intro columns">
-      <p>Welcome to my portfolio! I you will see the games I've developed so far </p>
+      <p>Welcome to my portfolio! I'm a developer passionated by videogames trying to make a living of it. Here are 
+      some of the games I've developed so far.</p>
     </div>
   </div>
 
   {% for id in site.data.games.index %}
   {% assign game = site.data.games[id.name] %}
   <div class="row image specs">
-    <div class="small-12 medium-6 columns image-container">
+    <div class="small-12 medium-8 columns image-container">
       <img class="feature" src="../assets/images/{{ game.image }}" />
     </div>
-    <div class="small-12 medium-6 columns">
+    <div class="small-12 medium-4 columns">
       <p class="title">{{ game.title }}</p>
       <p class="spec">Genre: {{ game.genre }}</p>
       <p class="spec">Platforms: {{ game.platforms }}</p>
       <p class="spec">Software: {{ game.software }}</p>
-      <p class="spec">Release date: {{ game.release_date }}</p>
+      <p class="spec">Released: {{ game.release_date }}</p>
     </div>
   </div>
 
