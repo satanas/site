@@ -23,10 +23,12 @@ h1 {
     padding-bottom: 0.4em;
     margin-top: 0.4em;
     margin-bottom: 0;
-    /*border-bottom: 1px solid #eaeaea;*/
   }
   img.feature {
     padding: 0;
+  }
+  nav.top-bar {
+    border-bottom: 1px solid #eaeaea;
   }
 }
 
@@ -90,8 +92,11 @@ p.spec {
   color: #ccc;
 }
 
-/*
-.top-bar {
+.top-bar,
+.top-bar-section ul li,
+.top-bar-section li:not(.has-form) a:not(.button),
+.top-bar-section li:not(.has-form) a:not(.button),
+.top-bar-section li.active:not(.has-form) a:not(.button) {
   background: none;
 }
 
@@ -99,10 +104,13 @@ p.spec {
   text-align: left;
 }
 
-.top-bar .name h1 a {
-  color: #999;
+.top-bar .name h1 a,
+.top-bar-section li.active:not(.has-form) a:not(.button),
+.top-bar-section ul li a {
+  color: #2e2e2e;
 }
 
+/*
 .menu-icon {
   background-color: #222;
 }
