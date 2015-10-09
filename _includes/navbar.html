@@ -9,8 +9,13 @@
   <section class="top-bar-section">
     <!-- Right Nav Section -->
     <ul class="right">
-      <li class="active"><a href="#">Blog</a></li>
-      <li class="active"><a href="#">Etc</a></li>
+      {% for link in site.data.menu %}
+      {% if page.slug == link.name %}
+      <li class="active"><a href="#">{{ link.name }}</a></li>
+      {% else %}
+      <li><a href="#">{{ link.name }}</a></li>
+      {% endif %}
+      {% endfor %}
     </ul>
   </section>
 </nav>
