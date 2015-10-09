@@ -39,6 +39,23 @@ p {
     border-bottom: 1px solid #eaeaea;
     height: 3rem;
   }
+  .top-bar .toggle-topbar.menu-icon a span::after {
+    box-shadow: 0 0 0 1px #9eabb3, 0 7px 0 1px #9eabb3, 0 14px 0 1px #9eabb3;
+  }
+  .top-bar.expanded .toggle-topbar a span::after {
+    box-shadow: 0 0 0 1px #ffffff, 0 7px 0 1px #ffffff, 0 14px 0 1px #ffffff;
+  }
+  .top-bar.expanded .name h1 a {
+    color: #fff;
+  }
+  .top-bar.expanded .top-bar-section ul li > a {
+    /*background: #ddd!important;*/
+  }
+  .top-bar.expanded .top-bar-section ul li > a:hover {
+    background: #eee!important;
+    color: #2e2e2e!important;
+    border-bottom: none;
+  }
 }
 
 /* Medium screens */
@@ -71,10 +88,6 @@ p {
   padding: 0px;
   margin: 0 auto;
   max-width: 710px;
-  /*
-  padding-left: 10px;
-  padding-right: 10px;
-  */
 }
 
 .intro {
@@ -146,11 +159,5 @@ p.spec {
 }
 
 .top-bar.expanded .title-area {
-  background: none!important;
   border-bottom: 1px solid #eaeaea;
 }
-/*
-.menu-icon {
-  background-color: #222;
-}
-*/
