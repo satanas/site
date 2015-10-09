@@ -20,6 +20,10 @@ h1 {
   margin: 0.5em auto;
 }
 
+p {
+  /*font-weight: 300;*/
+}
+
 /* Small screens */
 @media only screen and (max-width: 40em) {
   h1 {
@@ -86,8 +90,9 @@ p.spec {
 
 .row.description {
   border-bottom: 1px solid #eee;
-  margin-bottom: 32px; /* Fallback */
+  /*margin-bottom: 32px; /* Fallback */
   margin-bottom: 2rem;
+  margin-top: 1rem;
 }
 
 .last-update {
