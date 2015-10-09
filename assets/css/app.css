@@ -48,12 +48,18 @@ p {
   img.feature {
     padding: 0.8em 0;
   }
+  .top-bar {
+    padding: 1rem;
+  }
 }
 
 /* Large screens */
 @media only screen and (min-width: 64.063em) {
   h1 {
     font-size: 2.8em;
+  }
+  .top-bar {
+    padding: 2rem 2.5rem;
   }
 }
 
@@ -116,7 +122,8 @@ p.spec {
 .top-bar .name h1 a,
 .top-bar-section li.active:not(.has-form) a:not(.button),
 .top-bar-section ul li a {
-  color: #2e2e2e;
+  color: #9EABB3; /*#2e2e2e*/
+  font-size: 1rem;
 }
 
 /*
