@@ -1,6 +1,6 @@
 title: Ngine
 genre: Game engine
-platforms: Linux, Windows, OSX
+platforms: Desktop (Linux, Windows, OSX)
 engine: Pygame (python)
 release_date: January 8th, 2011
 image: ngine.png
