@@ -4,6 +4,8 @@ platforms: Web
 engine: Phaser (javascript)
 release_date: April 13th, 2015
 image: octocoder-screenshot.png
+play_url: href="http://satanas.github.io/game-off-2015/
+source_code_url: https://github.com/satanas/game-off-2015
 description: |
   <p><strong>Octocoder</strong> is a tetris-like game where you have to collect code blocks and deploy them into 
   applications. Combine the blocks to build popular applications and earn lots of points. Avoid unknown applications 
@@ -15,8 +17,3 @@ description: |
   one of the 12 winners of the compo</p>
 
   <p>It works in Chrome, Firefox and Safari. It probably works in other browsers but I haven't tested.</p>
-
-  <p>
-    <a href="http://satanas.github.io/game-off-2015/" alt="Play it" target="_blank">Play it</a> – 
-    <a href="https://github.com/satanas/game-off-2015" alt="Source code" target="_blank">Source code</a>
-  </p>
