@@ -5,7 +5,7 @@ engine: None (pure javascript)
 release_date: September 13th, 2014
 image: pariah-screenshot.jpg
 description: |
-  <p>This was my entry for the <a href="http://2014.js13kgames.com" alt="Js13kGames" target="_blank>Js13kGames compo 2014</a>, a 
+  <p>This was my entry for the <a href="http://2014.js13kgames.com" alt="Js13kGames" target="_blank">Js13kGames compo 2014</a>, a 
   Javascript coding competition for HTML5 Game Developers where the file size limit is set to a maximum of 13 
   kilobytes (compressed and minified). The theme for 2014 was <strong>Elements</strong> and the final size of the
   package was <strong>12793 bytes</strong>. Pariah finished in the 73rd position of 129 participants.</p>
@@ -29,7 +29,7 @@ description: |
   <p>Tested on Chrome and Firefox. Other browsers must work too but it hasn't been tested.</p>
 
   <p>
-    <a href="http://satanas.github.io/pariah" alt="Play it" target="_blank>Play it</a> – 
-    <a href="https://github.com/satanas/pariah" alt="Source code" target="_blank>Source code</a> – 
-    <a href="https://github.com/satanas/pariah/blob/master/pariah.zip" alt="Zip" target="_blank>ZIP package</a>
+    <a href="http://satanas.github.io/pariah" alt="Play it" target="_blank">Play it</a> – 
+    <a href="https://github.com/satanas/pariah" alt="Source code" target="_blank">Source code</a> – 
+    <a href="https://github.com/satanas/pariah/blob/master/pariah.zip" alt="Zip" target="_blank">ZIP package</a>
   </p>
