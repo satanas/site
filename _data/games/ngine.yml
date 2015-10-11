@@ -5,6 +5,7 @@ engine: Pygame (python)
 release_date: January 8th, 2011
 image: ngine.png
 license: GPL v3
+source_code_url: https://github.com/satanas/ngine
 description: |
   <p>Ngine is a game engine developed on top of Pygame that tries to simplify the game development process in Python. 
   Pygame is a great multimedia library but it lacks of some common features used to develop games, so Ngine 
@@ -22,7 +23,3 @@ description: |
 
   <p>Ngine and all its associated material has been released under the 
   <a href="http://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL v3</a> license</p>
-
-  <p>
-    <a href="https://github.com/satanas/ngine" alt="Source code" target="_blank">Source code</a>
-  </p>

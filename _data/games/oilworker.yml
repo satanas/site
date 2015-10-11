@@ -5,13 +5,8 @@ engine: Pygame (python)
 release_date: February 25th, 2008
 license: 
 image: oilworker-screenshot.png
+source_code_url: http://sourceforge.net/projects/oilworker/files/latest/download
 description: |
   <p><strong>OilWorker</strong> is an addictive and challenging arcade puzzle game developed in PyGame. Here, you've 
   been contracted by an oil company and your goal is to build a long pipe to transport the oil successfully from the 
   well to the refinery.</p>
-
-  <p>
-    <a href="http://sourceforge.net/projects/oilworker/files/latest/download" alt="Source code" target="_blank">Source code</a>
-  </p>
-
-

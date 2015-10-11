@@ -5,6 +5,8 @@ engine: Phaser (javascript)
 release_date: March 14th, 2015
 license: CC BY-NC-SA 4.0
 image: infectors-screenshot.png
+play_url: http://satanas.github.io/infectors/
+source_code_url: https://github.com/satanas/infectors
 description: |
   <p><strong>Infectors</strong> is a sokoban-like game where you have to solve puzzles pushing cryogenic capsules 
   toward viruses to capture them and save the earth from the invasion. At the moment the game count with 21 levels.</p>
@@ -18,8 +20,3 @@ description: |
 
   <p>It works in Chrome and Firefox (and probably in other browsers but I haven't tested). It's also available in the 
   <a href="https://marketplace.firefox.com/app/infectors/" target="_blank">Firefox Marketplace</a></p>
-
-  <p>
-    <a href="http://satanas.github.io/infectors/" alt="Play it" target="_blank">Play it</a> – 
-    <a href="https://github.com/satanas/infectors" alt="Source code" target="_blank">Source code</a>
-  </p>
