@@ -5,10 +5,14 @@ software: Phaser, Gimp, Javascript
 release_date: April 13th, 2015
 image: octocoder-screenshot.png
 description: |
-  <p>Octocoder is a tetris-like game where you have to collect code blocks and deploy them into applications. 
-  Combine the blocks to build popular applications and earn lots of points. It was born as a fork of 
-  <a href="https://github.com/ogoshen/game-off-2012">Octocat Jump</a> and was my entry for the 
-  <a href="https://github.com/blog/1972-the-game-has-changed">Github Game Off 2015</a> competition.</p>
+  <p><strong>Octocoder</strong> is a tetris-like game where you have to collect code blocks and deploy them into 
+  applications. Combine the blocks to build popular applications and earn lots of points. Avoid unknown applications 
+  or your stack will grow.</p>
+
+  <p>This game was born as a fork <a href="https://github.com/ogoshen/game-off-2012">Octocat Jump</a> and was my 
+  entry for the <a href="https://github.com/blog/1972-the-game-has-changed">Github Game Off 2015</a> competition, where 
+  you had to take an existing game and change it (code, graphics, sounds or whatever you wanted). Octocoder ended as 
+  one of the 12 winners of the compo</p>
 
   <p>It works in Chrome, Firefox and Safari. It probably works in other browsers but I haven't tested.</p>
 
