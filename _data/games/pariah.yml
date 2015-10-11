@@ -1,0 +1,34 @@
+title: Pariah
+genre: Rogue-like
+platforms: Web
+software: Javascript
+release_date: September 13th, 2014
+image: pariah-screenshot.jpg
+description: |
+  <p>This was my entry for the <a href="http://2014.js13kgames.com" alt="Js13kGames">Js13kGames compo 2014</a>, a 
+  Javascript coding competition for HTML5 Game Developers where the file size limit is set to a maximum of 13 
+  kilobytes (compressed and minified). The theme for this year was <strong>Elements</strong> and the final size of the
+  package was <strong>12793 bytes</strong>.</p>
+
+  <p>Pariah is set in a world where the destiny of humanity it's on the hands of one man that was rejected by society, 
+  labeled as crazy and locked up into a dungeon. Is the story of the last man in earth, is the story of the pariah.</p>
+
+  <p>This game was released under the figure of LudusPactum, with the valuable participation of 
+  <a href="https://twitter.com/TheGagzu" target="_blank">Alexander Hass</a> in the graphics and 
+  <a href="https://twitter.com/xabadu" target="_blank">Fernando Larrañaga</a> in the AI.</p>
+
+  <p>No frameworks were used to develop this game, just pure javascript. Among the interesting things developed 
+  for this title are:
+    <ul>
+      <li>Collisions system using AABB algorithm</li>
+      <li>Ray casting algorithm to create the fog effect</li>
+      <li>Procedural generated dungeons</li>
+    </ul>
+  </p>
+
+  <p>Tested on Chrome and Firefox. Other browsers must work too but it hasn't been tested.</p>
+
+  <p>
+    <a href="http://satanas.github.io/pariah" alt="Play it">Play it</a> – 
+    <a href="https://github.com/satanas/pariah" alt="Source code">Source code</a>
+  </p>
