@@ -1,19 +1,30 @@
 title: Please, die
 genre: Platformer
 platforms: Web
-software: Only Javascript
+software: Javascript
 release_date: September 13th, 2015
 image: please-die-screenshot.png
 description: |
-  <p>This is my entry for the <a href="http://js13kgames.com" alt="Js13kGames">Js13kGames compo 2015</a>, a Javascript coding competition for HTML5 Game Developers 
-  where the file size limit is set to a maximum of 13 kilobytes (compressed and minified). 
-  The theme for this year was <strong>Reversed</strong> and it took me ~113 hours to complete the game with a final size is of <strong>11848 bytes</strong>.</p>
+  <p>This was my entry for the <a href="http://2015.js13kgames.com" alt="Js13kGames">Js13kGames compo 2015</a>, a 
+  Javascript coding competition for HTML5 Game Developers where the file size limit is set to a maximum of 13 
+  kilobytes (compressed and minified). The theme for this year was <strong>Reversed</strong> and it took me ~113 
+  hours to complete the game with a final size of <strong>11848 bytes</strong>.</p>
 
   <p>In typical platformers you have to avoid enemies, avoid pits, collect stuffs, stay alive as long as 
   possible and be happy. <strong>Please, die</strong> is not the typical platformer. Things are kind of reversed here, so 
   you have to help our little character with a very simple task: <em>to die</em>.</p>
 
-  <p>Tested on Chrome and Firefox. Other browsers must work too but I haven't tested.</p>
+  <p>No frameworks were used to develop this game, just pure javascript. Some of the interesting things achieved
+  in this game were:
+    <ul>
+      <li>Simple physics with forces and gravity</li>
+      <li>Collisions system using an hybrid of AABB + SAT algorithm</li>
+      <li>Particles system with tainting effect on walls</li>
+      <li>ASCII maps for levels</li>
+    </ul>
+  </p>
+
+  <p>Tested on Chrome and Firefox. Other browsers must work too but it hasn't been tested.</p>
 
   <p>
     <a href="http://satanas.github.io/please-die" alt="Play it">Play it</a> – 
