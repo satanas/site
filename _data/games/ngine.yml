@@ -1,0 +1,28 @@
+title: Ngine
+genre: Game engine
+platforms: Linux, Windows, OSX
+software: Python, Pygame
+release_date: January 8th, 2011
+image: ngine.png
+license: GPL v3
+description: |
+  <p>Ngine is a game engine developed on top of Pygame that tries to simplify the game development process in Python 
+  but keeping it fun. Pygame is a multimedia library that lacks of some key features needed to develop game, so Ngine 
+  fills these blanks through a set of tools and modules. Main features are:</p>
+  <ul>
+    <li>Camera module with support for panning, scrolling and following sprites</li>
+    <li>Mouse, keyboard and joystick support</li>
+    <li>Simple collision system based on AABB algorithm</li>
+    <li>Particles system with pre-built effects for: explosion, shock, firework and boost</li>
+    <li>Own map format and editor, based on tilesets and with support for up to 6 layers</li>
+    <li>Director and scene modules</li>
+    <li>Define actors and non-walkable objects as sprites extensions</li>
+    <li>Text, sound and background music</li>
+  </ul>
+
+  <p>Ngine and all its associated material has been released under the 
+  <a href="http://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL v3</a> license</p>
+
+  <p>
+    <a href="https://github.com/satanas/ngine" alt="Source code">Source code</a>
+  </p>
