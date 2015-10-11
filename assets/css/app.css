@@ -116,6 +116,18 @@ p.spec {
   margin-top: 1rem;
 }
 
+.fa {
+  padding-right: 0.4rem;
+}
+
+.actions {
+  margin-top: 1rem;
+}
+
+.actions .link {
+  padding-right: 1rem;
+}
+
 .last-update {
   text-align: center;
   font-size: 0.75rem;

@@ -32,6 +32,15 @@ last_update: October, 2015
   <div class="row description">
     <div class="columns">
       {{ game.description }}
+
+      <p class="actions">
+        {% if game.play_url %}
+        <i class="fa fa-play-circle fa-2"></i><a class="link" href="{{ game.play_url }}" alt="Play it" target="_blank">Play it</a>
+        {% endif %}
+        {% if game.source_code_url %}
+        <i class="fa fa-github fa-2"></i><a class="link" href="{{ game.source_code_url }}" alt="Source code" target="_blank">Source code</a>
+        {% endif %}
+      </p>
     </div>
   </div>
   {% endfor %}
