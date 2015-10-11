@@ -1,7 +1,7 @@
 title: Octocoder
 genre: Puzzle
 platforms: Web
-software: Phaser, Gimp, Javascript
+engine: Phaser (javascript)
 release_date: April 13th, 2015
 image: octocoder-screenshot.png
 description: |

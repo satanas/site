@@ -1,7 +1,7 @@
 title: Infectors
 genre: Puzzle
 platforms: Web
-software: Phaser, Gimp, Javascript
+engine: Phaser (javascript)
 release_date: March 14th, 2015
 image: infectors-screenshot.png
 description: |
