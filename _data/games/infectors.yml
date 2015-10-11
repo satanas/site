@@ -10,7 +10,8 @@ description: |
   toward viruses to capture them and save the earth from the invasion. At the moment the game count with 21 levels.</p>
 
   <p>This version is a <a href="http://phaser.io" target="_blank" alt="Phaser">Phaser</a> port from the original version developed in 
-  <a href="http://pygame.org" alt="Pygame" target="_blank">Pygame</a> in December 2007.</p>
+  <a href="http://pygame.org" alt="Pygame" target="_blank">Pygame</a> in December 2007. Background music and sound 
+  effects were created by my friend <a href="https://twitter.com/DavidSenabre" target="_blank">David Senabre</a>.</p>
 
   <p>This game is licensed under the <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" alt="License" target="_blank">Creative 
   Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a></p>
