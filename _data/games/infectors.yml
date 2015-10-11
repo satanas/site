@@ -3,6 +3,7 @@ genre: Puzzle
 platforms: Web
 engine: Phaser (javascript)
 release_date: March 14th, 2015
+license: CC BY-NC-SA 4.0
 image: infectors-screenshot.png
 description: |
   <p><strong>Infectors</strong> is a sokoban-like game where you have to solve puzzles pushing cryogenic capsules 
