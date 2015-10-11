@@ -6,8 +6,8 @@ release_date: January 8th, 2011
 image: ngine.png
 license: GPL v3
 description: |
-  <p>Ngine is a game engine developed on top of Pygame that tries to simplify the game development process in Python 
-  but keeping it fun. Pygame is a multimedia library that lacks of some key features needed to develop game, so Ngine 
+  <p>Ngine is a game engine developed on top of Pygame that tries to simplify the game development process in Python. 
+  Pygame is a great multimedia library but it lacks of some common features used to develop games, so Ngine 
   fills these blanks through a set of tools and modules. Main features are:</p>
   <ul>
     <li>Camera module with support for panning, scrolling and following sprites</li>

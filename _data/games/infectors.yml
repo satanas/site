@@ -1,6 +1,6 @@
 title: Infectors
 genre: Puzzle
-platforms: Web, Firefox Marketplace
+platforms: Web
 software: Phaser, Gimp, Javascript
 release_date: March 14th, 2015
 image: infectors-screenshot.png
@@ -14,7 +14,8 @@ description: |
   <p>This game is licensed under the <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" alt="License">Creative 
   Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a></p>
 
-  <p>It works in Chrome and Firefox. It probably works in other browsers but I haven't tested.</p>
+  <p>It works in Chrome and Firefox (and probably in other browsers but I haven't tested). It's also available in the 
+  <a href="https://marketplace.firefox.com/app/infectors/" target="_blank">Firefox Marketplace</a></p>
 
   <p>
     <a href="http://satanas.github.io/infectors/" alt="Play it">Play it</a> – 
