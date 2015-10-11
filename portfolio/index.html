@@ -40,6 +40,9 @@ last_update: October, 2015
         {% if game.source_code_url %}
         <i class="fa fa-github fa-2"></i><a class="link" href="{{ game.source_code_url }}" alt="Source code" target="_blank">Source code</a>
         {% endif %}
+        {% if game.zip_url %}
+        <i class="fa fa-file-zip-o fa-2"></i><a class="link" href="{{ game.zip_url }}" alt="Zip file" target="_blank">Zip file</a>
+        {% endif %}
       </p>
     </div>
   </div>
