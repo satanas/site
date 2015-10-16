@@ -3,10 +3,15 @@ genre: Puzzle
 platforms: Desktop (Linux, Windows, OSX)
 engine: Pygame (python)
 release_date: February 25th, 2008
-license: 
+license: GPL v3
 image: oilworker-screenshot.png
 source_code_url: http://sourceforge.net/projects/oilworker/files/latest/download
 description: |
-  <p><strong>OilWorker</strong> is an addictive and challenging arcade puzzle game developed in PyGame. Here, you've 
-  been contracted by an oil company and your goal is to build a long pipe to transport the oil successfully from the 
-  well to the refinery.</p>
+  <p><strong>OilWorker</strong> is an addictive and challenging puzzle game where you get contracts to build a pipeline 
+  that will allow transport oil from one point to another. Your starting point is an oil well and random pieces of 
+  pipes (a-la tetris) will be given to you to build the pipe system that must lead to the oil refinery. The oil will start
+  flowing after a few seconds and if it can get to the refinery, you win the level, the contract and lots of money. If 
+  the oil spills then you get fired and go back home with empty hands.</p>
+
+  <p>The game was developed in PyGame and counts with 20 levels. Graphics and development done by me. Sounds were 
+  downloaded from an open source archive.</p>
