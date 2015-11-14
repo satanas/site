@@ -85,7 +85,7 @@ git push origin :<tag_name>
 git gc --prune
 ```
 
-## Clean remote repo
+### Clean remote repo
 
 ```bash
 git remote prune <remote_name>
