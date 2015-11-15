@@ -119,3 +119,43 @@ git checkout -f
 ```bash
 git reset --hard
 ```
+
+### Undo last commit
+
+```bash
+git reset --soft HEAD^
+```
+
+### Blame
+
+```bash
+git blame -L <line_from>,<line_to> <file>
+```
+
+### Amend last commit
+
+```bash
+git commit --amend
+```
+
+### Unstage files
+
+```bash
+git reset HEAD <file>
+```
+
+### Reset single file to specific commit
+
+```bash
+git checkout <commit> <file>
+```
+
+### Resolve conflicts with checkout
+
+```bash
+# Resolve accepting the remote changes
+git checkout --theirs <file>
+
+# Resolve accepting the local changes
+git checkout --ours <file>
+```
