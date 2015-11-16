@@ -21,6 +21,19 @@ git branch <branch_name>
 git checkout <branch_name>
 ```
 
+## View code differences
+
+```bash
+# Between working area and default branch (usually master)
+git diff
+
+# Between staged changes and default branch (usually master)
+git diff --staged
+
+# Between working area and some other branch
+git diff <remote>/<branch>
+```
+
 ### Create branch and checkout
 
 ```bash
@@ -36,7 +49,7 @@ git remote add <remote_name> <repo_url>
 ### Track remote branch
 
 ```bash
-git branch -t <local_branch_name> <remote_name>/<remote_branch_name>
+git branch -t <branch_name> <remote_name>/<remote_branch>
 ```
 
 ### Delete local branch
@@ -88,7 +101,7 @@ git gc --prune
 ### Clean remote repo
 
 ```bash
-git remote prune <remote_name>
+git remote prune <remote>
 ```
 
 ### Restore deleted file
@@ -103,7 +116,7 @@ git checkout <file>
 Use this instruction with caution.
 
 ```bash
-git push -f <remote> <commit_sha>:<branch_name>
+git push -f <remote> <commit_sha1>:<branch_name>
 ```
 
 ### Undo unstaged changes in working space
@@ -144,10 +157,14 @@ git commit --amend
 git reset HEAD <file>
 ```
 
-### Reset single file to specific commit
+### Reset file
 
 ```bash
-git checkout <commit> <file>
+# To a specific commit
+git checkout <commit_sha1> <file>
+
+# To a specific branch
+git reset <remote>/<branch> <file>
 ```
 
 ### Resolve conflicts with checkout
@@ -158,4 +175,16 @@ git checkout --theirs <file>
 
 # Resolve accepting the local changes
 git checkout --ours <file>
+```
+
+### Revert commit or merge
+
+```bash
+git revert -m 1 <commit_sha1>
+```
+
+### Clean untracked files from working directory
+
+```bash
+git clean -f [-i]
 ```
