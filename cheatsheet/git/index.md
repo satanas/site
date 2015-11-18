@@ -1,6 +1,7 @@
 ---
 layout: base
 title: "Git Cheatsheet"
+comments: true
 ---
 
 ### Clone repository
@@ -21,7 +22,7 @@ git branch <branch_name>
 git checkout <branch_name>
 ```
 
-## View code differences
+### View code differences
 
 ```bash
 # Between working area and default branch (usually master)
