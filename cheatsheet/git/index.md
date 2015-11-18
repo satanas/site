@@ -1,6 +1,7 @@
 ---
 layout: base
 title: "Git Cheatsheet"
+syntax_highlight: true
 comments: true
 ---
 
