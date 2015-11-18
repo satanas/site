@@ -1,0 +1,30 @@
+body {
+  background-color: #272C32;
+  font-family: 'Orbitron', sans-serif;
+  color: #ccc;
+}
+
+#wrapper {
+  margin: 0px;
+  padding: 0px;
+  margin: 0 auto;
+  max-width: 970px;
+}
+
+#logo {
+  text-align: center;
+  color: #00FF55;
+  font-size: 5.5rem;
+  margin: 2rem 0;
+}
+
+.screenshot {
+  margin: 10px;
+  background-color: #fff;
+}
+
+.legal-attribution {
+  text-align: center;
+  font-family: arial;
+  font-size: 0.7rem;
+}
