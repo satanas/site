@@ -189,3 +189,9 @@ git revert -m 1 <commit_sha1>
 ```bash
 git clean -f [-i]
 ```
+
+## Contribute!
+
+If you have commands, tips, suggestions or improvements that could make the cheatsheet richer or if you see something 
+that is not accurate or right, please, feel free to propose the changes either on 
+[GitHub](https://github.com/satanas/site) or in the comments below.
