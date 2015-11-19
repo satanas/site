@@ -18,9 +18,19 @@ body {
   margin: 2rem 0;
 }
 
+.badges-box {
+  margin: 3rem 0 !important;
+}
+
+.badge {
+  max-width: 280px;
+  margin: 1rem auto;
+}
+
 .screenshot {
   margin: 10px;
   background-color: #fff;
+  border: 1px solid #f00;
 }
 
 .legal-attribution {
