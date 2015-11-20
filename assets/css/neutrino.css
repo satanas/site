@@ -18,6 +18,17 @@ body {
   margin: 2rem 0;
 }
 
+#description p {
+  font-family: 'Open Sans';
+}
+
+#developed_by {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 2rem auto;
+  font-weight: 700;
+}
+
 .badges-box {
   margin: 3rem 0 !important;
 }
@@ -28,9 +39,9 @@ body {
 }
 
 .screenshot {
-  margin: 10px;
+  margin: 10px auto;
   background-color: #fff;
-  border: 1px solid #f00;
+  max-width: 320px;
 }
 
 .legal-attribution {
