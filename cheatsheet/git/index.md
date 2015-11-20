@@ -121,11 +121,17 @@ Use this instruction with caution.
 git push -f <remote> <commit_sha1>:<branch_name>
 ```
 
-### Undo unstaged changes in working space
-
-Use this instruction with caution, you could lose data.
+### Undo staged changes
 
 ```bash
+# Unstage changes on a tracked file
+git reset HEAD <file>
+
+# Unstage changes on a currently-untracked file
+git rm --cached <file>
+
+# Unstage changes on the working copy
+# (use this instruction with caution, you could lose data)
 git checkout -f
 ```
 
