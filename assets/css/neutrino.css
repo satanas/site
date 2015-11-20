@@ -29,6 +29,10 @@ body {
   font-weight: 700;
 }
 
+#developed_by a {
+  color: #00FF55;
+}
+
 .badges-box {
   margin: 3rem 0 !important;
 }
