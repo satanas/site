@@ -192,3 +192,10 @@ p.spec {
 .top-bar.expanded .title-area {
   border-bottom: 1px solid #eaeaea;
 }
+
+.footer {
+  margin-top: 1rem;
+  text-align: center;
+  color: #666;
+  font-size: 0.8rem;
+}
