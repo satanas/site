@@ -75,6 +75,10 @@ body {
 
 /* Small screens */
 @media only screen and (max-width: 40em) {
+  #logo {
+    font-size: 4rem;
+  }
+
   #press-kit {
     font-size: 1rem;
     line-height: 7.5rem;
