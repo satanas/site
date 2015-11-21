@@ -4,6 +4,10 @@ body {
   color: #ccc;
 }
 
+/* Small screens */
+@media only screen and (max-width: 40em) {
+}
+
 #wrapper {
   margin: 0px;
   padding: 0px;
@@ -46,6 +50,24 @@ body {
   margin: 10px auto;
   background-color: #fff;
   max-width: 320px;
+}
+
+#press-kit {
+  display: block;
+  font-size: 1.3rem;
+  background-color: #42c142;
+  color: #FFF;
+  border-radius: 50%;
+  line-height: 9.5rem;
+  width: 9rem;
+  height: 9rem;
+  text-align: center;
+  font-weight: bold;
+  margin: 2rem auto;
+}
+
+#press-kit:hover {
+  background-color: #49d549;
 }
 
 .legal-attribution {
