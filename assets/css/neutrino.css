@@ -4,10 +4,6 @@ body {
   color: #ccc;
 }
 
-/* Small screens */
-@media only screen and (max-width: 40em) {
-}
-
 #wrapper {
   margin: 0px;
   padding: 0px;
@@ -75,4 +71,18 @@ body {
   text-align: center;
   font-family: arial;
   font-size: 0.7rem;
+}
+
+/* Small screens */
+@media only screen and (max-width: 40em) {
+  #press-kit {
+    font-size: 1rem;
+    line-height: 7.5rem;
+    width: 7rem;
+    height: 7rem;
+  }
+
+  #developed_by {
+    font-size: 1.1rem;
+  }
 }
