@@ -49,6 +49,10 @@ body {
   margin: 1rem auto;
 }
 
+.app-store {
+  padding-top: 0.5rem;
+}
+
 .screenshot {
   margin: 10px auto;
   background-color: #fff;
