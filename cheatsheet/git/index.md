@@ -3,9 +3,10 @@ layout: base
 title: "Git Cheatsheet"
 syntax_highlight: true
 comments: true
+social_buttons: true
 ---
 
-### Clone repository
+### Clone repository
 
 ```bash
 git clone <repo_url> [folder_name]
@@ -17,13 +18,13 @@ git clone <repo_url> [folder_name]
 git branch <branch_name>
 ```
 
-### Checkout branch
+### Checkout branch
 
 ```bash
 git checkout <branch_name>
 ```
 
-### View code differences
+### View code differences
 
 ```bash
 # Between working area and default branch (usually master)
@@ -42,19 +43,19 @@ git diff <remote>/<branch>
 git checkout -b <branch_name>
 ```
 
-### Add new remote
+### Add new remote
 
 ```bash
 git remote add <remote_name> <repo_url>
 ```
 
-### Track remote branch
+### Track remote branch
 
 ```bash
 git branch -t <branch_name> <remote_name>/<remote_branch>
 ```
 
-### Delete local branch
+### Delete local branch
 
 ```bash
 # Delete merged branch
@@ -121,7 +122,7 @@ Use this instruction with caution.
 git push -f <remote> <commit_sha1>:<branch_name>
 ```
 
-### Undo staged changes
+### Undo staged changes
 
 ```bash
 # Unstage changes on a tracked file
@@ -135,19 +136,19 @@ git rm --cached <file>
 git checkout -f
 ```
 
-### Undo last pull
+### Undo last pull
 
 ```bash
 git reset --hard
 ```
 
-### Undo last commit
+### Undo last commit
 
 ```bash
 git reset --soft HEAD^
 ```
 
-### Blame
+### Blame
 
 ```bash
 git blame -L <line_from>,<line_to> <file>
@@ -159,13 +160,13 @@ git blame -L <line_from>,<line_to> <file>
 git commit --amend
 ```
 
-### Unstage files
+### Unstage files
 
 ```bash
 git reset HEAD <file>
 ```
 
-### Reset file
+### Reset file
 
 ```bash
 # To a specific commit
@@ -197,8 +198,9 @@ git revert -m 1 <commit_sha1>
 git clean -f [-i]
 ```
 
-## Contribute!
+## Contribute!
 
 If you have commands, tips, suggestions or improvements that could make the cheatsheet richer or if you see something 
 that is not accurate or right, please, feel free to propose the changes either on 
 [GitHub](https://github.com/satanas/site) or in the comments below.
+
