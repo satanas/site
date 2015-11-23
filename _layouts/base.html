@@ -12,6 +12,9 @@
       <div class="row">
         {{ content }}
       </div>
+      {% if page.social_buttons %}
+        {% include social_buttons.html %}
+      {% endif %}
       {% if page.comments %}
         {% include comments.html %}
       {% endif %}
