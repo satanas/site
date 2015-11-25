@@ -1,5 +1,3 @@
-- name: Blog
-  slug: blog
 - name: Portfolio
   slug: portfolio
 - name: CheatSheets
