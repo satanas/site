@@ -10,11 +10,7 @@
     <!-- Right Nav Section -->
     <ul class="right">
       {% for link in site.data.menu %}
-      {% if page.slug == link.name %}
-      <li class="active"><a href="#">{{ link.name }}</a></li>
-      {% else %}
-      <li><a href="#">{{ link.name }}</a></li>
-      {% endif %}
+      <li {% if page.slug == link.name %}class="active"{% endif %}><a href="/{{ link.slug }}">{{ link.name }}</a></li>
       {% endfor %}
     </ul>
   </section>
