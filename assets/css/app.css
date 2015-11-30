@@ -35,14 +35,6 @@ p {
   font-weight: 300;
 }
 
-a {
-  color: #9EABB3;
-}
-
-a:hover {
-  color: #333;
-}
-
 code, .hljs {
   background: #fdf6e3;
   margin-bottom: 20px;
@@ -203,7 +195,6 @@ p.spec {
 
 .contacts .link {
   font-size: 3rem;
-  color: #333;
 }
 
 .last-update {
@@ -256,4 +247,8 @@ p.spec {
   text-align: center;
   color: #666;
   font-size: 0.8rem;
+}
+
+.presskit .label.download {
+  padding: 1em 2em;
 }
