@@ -253,6 +253,12 @@ p.spec {
   font-size: 0.8rem;
 }
 
+/* Press Kit Style */
 .presskit .label.download {
   padding: 1em 2em;
+}
+
+.presskit h3 {
+  margin-top: 1.3em;
+  border-bottom: 1px solid #ccc;
 }
