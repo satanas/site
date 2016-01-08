@@ -154,10 +154,17 @@ git reset --soft HEAD^
 git blame -L <line_from>,<line_to> <file>
 ```
 
-### Amend last commit
+### Amend last commit changes
 
 ```bash
+git add <other files>
 git commit --amend
+```
+
+### Amend last commit author
+
+```bash
+git commit --amend --author "Your name <your.email@address.com>"
 ```
 
 ### Unstage files
@@ -196,6 +203,30 @@ git revert -m 1 <commit_sha1>
 
 ```bash
 git clean -f [-i]
+```
+
+### Squash commits
+
+```bash
+# Get the base commit for your branch
+$ git merge-base your-branch master
+
+# Use the hash returned by the previous command to rebase
+$ git rebase -i <HASH>
+
+# Previous command will open up your text editor with something like this:
+#   pick 1fc6c95 do something
+#   pick 6b2481b do something else
+#   pick dd1475d changed some things
+#   pick c619268 fixing typos
+#
+# Replace `pick` for `squash` in all lines but first, like this:
+#   pick 1fc6c95 do something
+#   squash 6b2481b do something else
+#   squash dd1475d changed some things
+#   squash c619268 fixing typos
+# Save and close the file, wait for a new instance of your text editor,
+# edit your commit message and enjoy your brand new commit!
 ```
 
 ## Contribute!
