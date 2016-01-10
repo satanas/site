@@ -30,8 +30,13 @@ body {
   font-weight: 700;
 }
 
-#developed_by a {
+#developed_by a, .download_text {
   color: #00FF55;
+}
+
+.download_text {
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 #slogan p {
