@@ -39,6 +39,15 @@ body {
   text-align: center;
 }
 
+#app_icon {
+  text-align: center;
+}
+
+#app_icon img {
+  max-width: 256px;
+  max-height: 256px;
+}
+
 #slogan p {
   text-align: center;
   font-weight: bold;

@@ -5,6 +5,9 @@
 {% if page.site_verification %}
 <meta name="google-site-verification" content="{{ page.site_verification }}" />
 {% endif %}
+{% if page.favicon %}
+<link rel="icon" type="image/png" href="{{ page.favicon }}" />
+{% endif %}
 
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
