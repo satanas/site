@@ -5,10 +5,16 @@
 {% if page.site_verification %}
 <meta name="google-site-verification" content="{{ page.site_verification }}" />
 {% endif %}
+{% if page.keywords %}
+<meta name="keywords" content="{{ page.keywords }}" >
+{% endif %}
+{% if page.meta_description %}
+<meta name="description" content="{{ page.meta_description }}" >
+{% endif %}
+
 {% if page.favicon %}
 <link rel="icon" type="image/png" href="{{ page.favicon }}" />
 {% endif %}
-
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/default.min.css">
