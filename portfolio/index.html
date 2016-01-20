@@ -54,6 +54,12 @@ last_update: October, 2015
         {% if game.zip_url %}
         <i class="fa fa-file-zip-o fa-2"></i><a class="link" href="{{ game.zip_url }}" alt="Zip file" target="_blank">Zip file</a>
         {% endif %}
+        {% if game.official_url %}
+        <i class="fa fa-globe fa-2"></i><a class="link" href="{{ game.official_url }}" alt="Official page" target="_blank">Official page</a>
+        {% endif %}
+        {% if game.presskit_url %}
+        <i class="fa fa-file-text-o fa-2"></i><a class="link" href="{{ game.presskit_url }}" alt="Press kit" target="_blank">Press kit</a>
+        {% endif %}
       </p>
     </div>
   </div>
