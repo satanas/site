@@ -94,6 +94,11 @@ git tag -d <tag_name>
 ```bash
 git push origin :<tag_name>
 ```
+### Checkout tag
+
+```bash
+git checkout -b <branch_name> <tag_name>
+```
 
 ### Clean local repo
 
