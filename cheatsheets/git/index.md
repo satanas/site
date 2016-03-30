@@ -8,25 +8,25 @@ social_buttons: true
 
 ### Clone repository
 
-```bash
+~~~bash
 git clone <repo_url> [folder_name]
-```
+~~~
 
 ### Create branch
 
-```bash
+~~~bash
 git branch <branch_name>
-```
+~~~
 
 ### Checkout branch
 
-```bash
+~~~bash
 git checkout <branch_name>
-```
+~~~
 
 ### View code differences
 
-```bash
+~~~bash
 # Between working area and default branch (usually master)
 git diff
 
@@ -35,101 +35,101 @@ git diff --staged
 
 # Between working area and some other branch
 git diff <remote>/<branch>
-```
+~~~
 
 ### Create branch and checkout
 
-```bash
+~~~bash
 git checkout -b <branch_name>
-```
+~~~
 
 ### Add new remote
 
-```bash
+~~~bash
 git remote add <remote_name> <repo_url>
-```
+~~~
 
 ### Track remote branch
 
-```bash
+~~~bash
 git branch -t <branch_name> <remote_name>/<remote_branch>
-```
+~~~
 
 ### Delete local branch
 
-```bash
+~~~bash
 # Delete merged branch
 git branch -d <branch>
 
 # Delete non-merged branch (or force deletion)
 git branch -D <branch>
-```
+~~~
 
 ### Delete remote branch
 
-```bash
+~~~bash
 git push origin :<branch_name>
-```
+~~~
 
 ### Create tag
 
-```bash
+~~~bash
 git tag -a <tag_name> -m "<comment>"
-```
+~~~
 
 ### Push tag to origin
 
-```bash
+~~~bash
 git push origin <tag_name>
-```
+~~~
 
 ### Delete local tag
 
-```bash
+~~~bash
 git tag -d <tag_name>
-```
+~~~
 
 ### Delete remote tag
 
-```bash
+~~~bash
 git push origin :<tag_name>
-```
+~~~
 ### Checkout tag
 
-```bash
+~~~bash
 git checkout -b <branch_name> <tag_name>
-```
+~~~
 
 ### Clean local repo
 
-```bash
+~~~bash
 git gc --prune
-```
+~~~
 
 ### Clean remote repo
 
-```bash
+~~~bash
 git remote prune <remote>
-```
+~~~
 
 ### Restore deleted file
 
-```bash
+~~~bash
 git reset HEAD <file>
 git checkout <file>
-```
+~~~
 
 ### Undo last push
 
 Use this instruction with caution.
 
-```bash
+~~~bash
 git push -f <remote> <commit_sha1>:<branch_name>
-```
+~~~
 
 ### Undo staged changes
 
-```bash
+~~~bash
 # Unstage changes on a tracked file
 git reset HEAD <file>
 
@@ -139,80 +139,80 @@ git rm --cached <file>
 # Unstage changes on the working copy
 # (use this instruction with caution, you could lose data)
 git checkout -f
-```
+~~~
 
 ### Undo last pull
 
-```bash
+~~~bash
 git reset --hard
-```
+~~~
 
 ### Undo last commit
 
-```bash
+~~~bash
 git reset --soft HEAD^
-```
+~~~
 
 ### Blame
 
-```bash
+~~~bash
 git blame -L <line_from>,<line_to> <file>
-```
+~~~
 
 ### Amend last commit changes
 
-```bash
+~~~bash
 git add <other files>
 git commit --amend
-```
+~~~
 
 ### Amend last commit author
 
-```bash
+~~~bash
 git commit --amend --author "Your name <your.email@address.com>"
-```
+~~~
 
 ### Unstage files
 
-```bash
+~~~bash
 git reset HEAD <file>
-```
+~~~
 
 ### Reset file
 
-```bash
+~~~bash
 # To a specific commit
 git checkout <commit_sha1> <file>
 
 # To a specific branch
 git reset <remote>/<branch> <file>
-```
+~~~
 
 ### Resolve conflicts with checkout
 
-```bash
+~~~bash
 # Resolve accepting the remote changes
 git checkout --theirs <file>
 
 # Resolve accepting the local changes
 git checkout --ours <file>
-```
+~~~
 
 ### Revert commit or merge
 
-```bash
+~~~bash
 git revert -m 1 <commit_sha1>
-```
+~~~
 
 ### Clean untracked files from working directory
 
-```bash
+~~~bash
 git clean -f [-i]
-```
+~~~
 
 ### Squash commits
 
-```bash
+~~~bash
 # Get the base commit for your branch
 $ git merge-base your-branch master
 
@@ -232,7 +232,7 @@ $ git rebase -i <HASH>
 #   squash c619268 fixing typos
 # Save and close the file, wait for a new instance of your text editor,
 # edit your commit message and enjoy your brand new commit!
-```
+~~~
 
 ## Contribute!
 

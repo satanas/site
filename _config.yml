@@ -5,7 +5,7 @@ permalink: "/:year/:month/:day/:title"
 baseurl: "" #"http://satanas.github.io/site"
 name: "Hell"
 description: "This is the art of ruin"
-markdown: rdiscount
+markdown: kramdown
 exclude:
 - .gitignore
 - README.md
