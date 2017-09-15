@@ -2,8 +2,9 @@ title: Neutrino
 genre: Casual, Tap reaction
 platforms: Android, iPhone and Amazon Fire
 engine: Unity
+languages: C#
 release_date: December 30th, 2015 for Android and Amazon Fire. January 15th, 2016 for iPhone
-image: neutrino-screenshot.png
+local_image: neutrino-screenshot.png
 official_url: http://satanas.io/games/neutrino
 presskit_url: http://satanas.io/games/neutrino/presskit.html
 description: |

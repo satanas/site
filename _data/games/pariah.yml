@@ -1,28 +1,31 @@
 title: Pariah
 genre: Rogue-like
 platforms: Web
-engine: None (pure javascript)
+engine: None
+languages: Javascript
 release_date: September 13th, 2014
-image: pariah-screenshot.jpg
+place: 73rd (out of 129)
+image: https://raw.githubusercontent.com/satanas/pariah/master/ss-400.png
 play_url: http://satanas.github.io/pariah
 source_code_url: https://github.com/satanas/pariah
 zip_url: https://github.com/satanas/pariah/blob/master/pariah.zip
+tag: js13k
 description: |
-  <p>This is my first entry for the <a href="http://2014.js13kgames.com" alt="Js13kGames" target="_blank">Js13kGames compo 2014</a>, a 
-  Javascript coding competition for HTML5 Game Developers where the file size limit is set to a maximum of 13 
+  <p>This was my first entry for the <a href="http://2014.js13kgames.com" alt="Js13kGames" target="_blank">Js13kGames compo 2014</a>, a
+  Javascript coding competition for HTML5 Game Developers where the file size limit is set to a maximum of 13
   kilobytes (compressed and minified). The theme for 2014 was <strong>Elements</strong>, the final size of the
   package was <strong>12793 bytes</strong> and it finished in the 73rd position of 129 participants.</p>
 
-  <p><strong>Pariah</strong> is set in a world where the destiny of humanity it's on the hands of one man that was rejected by society, 
-  labeled as crazy and locked up into a dungeon for the rest of his days. But now, everybody is dead and you are the last 
-  man alive, so your missions is to escape from the dungeons, avoid the zombies and find the four elements to restore 
+  <p><strong>Pariah</strong> is set in a world where the destiny of humanity it's on the hands of one man that was rejected by society,
+  labeled as crazy and locked up into a dungeon for the rest of his days. But now, everybody is dead and you are the last
+  man alive, so your missions is to escape from the dungeons, avoid the zombies and find the four elements to restore
   the humanity on earth.</p>
 
-  <p>This game was released under the figure of LudusPactum, with the valuable participation of 
-  <a href="https://twitter.com/TheGagzu" target="_blank">Alexander Hass</a> in the graphics and 
+  <p>This game was released under the figure of LudusPactum, with the valuable participation of
+  <a href="https://twitter.com/TheGagzu" target="_blank">Alexander Hass</a> in the graphics and
   <a href="https://twitter.com/xabadu" target="_blank">Fernando Larrañaga</a> in the AI.</p>
 
-  <p>No frameworks were used to develop this game, just pure javascript. Among the interesting things developed 
+  <p>No frameworks were used to develop this game, just pure javascript. Among the interesting things developed
   for this title are:
     <ul>
       <li>Collisions system using AABB algorithm</li>

@@ -1,9 +1,10 @@
 title: Ngine
 genre: Game engine
 platforms: Desktop (Linux, Windows, OSX)
-engine: Pygame (python)
+engine: Pygame
+languages: Python
 release_date: January 8th, 2011
-image: ngine.png
+local_image: ngine.png
 license: GPL v3
 source_code_url: https://github.com/satanas/ngine
 description: |

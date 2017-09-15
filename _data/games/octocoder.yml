@@ -1,9 +1,10 @@
 title: Octocoder
 genre: Puzzle
 platforms: Web
-engine: Phaser (javascript)
+engine: Phaser
+languages: Javascript
 release_date: April 13th, 2015
-image: octocoder-screenshot.png
+local_image: octocoder-screenshot.png
 play_url: http://satanas.github.io/game-off-2015/
 source_code_url: https://github.com/satanas/game-off-2015
 description: |

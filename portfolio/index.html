@@ -2,18 +2,18 @@
 layout: base
 slug: Portfolio
 title: "Game Development Portfolio"
-last_update: October, 2015
+last_update: September, 2017
 ---
 
 <div class="columns">
   <div class="row">
     <div class="intro columns">
       <p>Welcome to my portfolio! I'm a developer passionated about videogames trying to make a living of it. My favorite
-      languages are Python, Ruby and Javascript, and I've experience working in the backend as well as in the frontend. 
-      I'm currently working with Phaser to build HTML5 games but also I'm studying Unity for mobile and desktop. 
-      In the past, I've done videogames using Stencyl and Pygame.
+      languages are Python, Ruby and Javascript, and I've experience working with backend and frontend. 
+      I'm currently working with Phaser to build HTML5 games and Unity for mobile and desktop. 
+      In the past, I also have done videogames using Stencyl and Pygame.
 
-      Here you can check some of the games I've done so far.</p>
+      Here you can check some of the games I've made so far.</p>
 
       <p class="contacts">
         <span>You can contact me on:</span>
@@ -28,15 +28,25 @@ last_update: October, 2015
   {% assign game = site.data.games[id.name] %}
   <div class="row image specs">
     <div class="small-12 medium-8 columns image-container">
-      <img class="feature" src="../assets/images/{{ game.image }}" />
+      {% if game.local_image %}
+      <img class="feature" src="../assets/images/{{ game.local_image }}" />
+      {% else %}
+      <img class="feature" src="{{ game.image }}" />
+      {% endif %}
     </div>
     <div class="small-12 medium-4 columns">
       <p class="title">{{ game.title }}</p>
       <p class="spec">Genre: {{ game.genre }}</p>
       <p class="spec">Platforms: {{ game.platforms }}</p>
       <p class="spec">Engine: {{ game.engine }}</p>
+      <p class="spec">Languages: {{ game.languages }}</p>
       <p class="spec">Released: {{ game.release_date }}</p>
+      {% if game.place %}
+      <p class="spec">Place: {{ game.place }}</p>
+      {% endif %}
+      {% if game.license %}
       <p class="spec">License: {{ game.license }}</p>
+      {% endif %}
     </div>
   </div>
 

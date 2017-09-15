@@ -1,0 +1,25 @@
+title: Pandemia
+genre: Zombie survival shooter
+platforms: Web
+engine: None
+languages: Javascript
+release_date: September 13th, 2017
+image: https://raw.githubusercontent.com/satanas/pandemia/master/ss-400.png
+play_url: https://satanas.github.io/pandemia
+source_code_url: https://github.com/satanas/pandemia
+zip_url: https://github.com/satanas/pandemia/raw/master/min/pandemia.zip
+tag: js13k
+description: |
+  <p>This was my entry for the 2017 edition of the <a href="http://2016.js13kgames.com" alt="Js13kGames" target="_blank">js13kGames compo</a>,
+  a JavaScript coding competition for HTML5 Game Developers where the file size limit is set to a maximum of 13 kb
+  (13312 bytes) and no external libraries are allowed. The theme for 2017 was <strong>Lost</strong>.</p>
+
+  <p>The actual size of my game was 12.99 kb, or <strong>13309 bytes</strong> to be precise (yes, just 3 bytes less than
+  the limit :P) and it took me 77 hours and 23 min to complete.</p>
+
+  <p>Pandemia is a zombie survival shooter game with Minecraft inspired graphics where you have to come through hordes of
+  zombies in order to deliver a vaccine to a safe zone and stop the infection, saving the human race. But wait, you are
+  already infected, so you will start losing your humanity and with it, your senses. So be quick and accomplish your
+  critical mission before it's too late and you become an undead.</p>
+
+  <p>Best experienced in Chrome. Controls: WASD, ZQSD and ARROWS to move. MOUSE to aim and shoot.</p>

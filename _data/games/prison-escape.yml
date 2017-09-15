@@ -1,20 +1,22 @@
 title: Prison Escape
 genre: Runner
 platforms: Web
-engine: None (pure javascript)
+engine: None
+languages: Javascript
 release_date: September 13th, 2016
-image: prison-escape-screenshot.png
+place: 20th (out of 127)
+image: https://raw.githubusercontent.com/satanas/prison-escape/master/ss-400.png
 play_url: http://satanas.github.io/prison-escape
 source_code_url: https://github.com/satanas/prison-escape
 zip_url: https://github.com/satanas/prison-escape/raw/master/min/prison-break.zip
+tag: js13k
 description: |
   <p>This was my entry for the 2016 edition of the <a href="http://2016.js13kgames.com" alt="Js13kGames" target="_blank">js13kGames compo</a>,
   a Javascript coding competition for HTML5 Game Developers where the file size limit is set to a maximum of 13 
-  kb (13312 bytes) and no external libraries are allowed. The theme for this year was <strong>Glitch</strong> and it 
-  took me 37 hours 42 min to complete with a final size of <strong>11873 bytes</strong>. Prison Escape finished in the 20th 
-  position of 127 participants.</p>
+  kb (13312 bytes) and no external libraries are allowed. The theme for this year was <strong>Glitch</strong> and it
+  took me 37 hours 42 min to complete the game with a final size of <strong>11873 bytes</strong>.</p>
 
-  <p>A glitch in a prison complex could be something terrible, and it's up to you to take advantage of those glitches 
+  <p>A glitch in a prison complex could be something terrible, and it's up to you to take advantage of those glitches
   to escape. Avoid the cops, collect the coins and use the power ups to run the 1 km that separates you from freedom.</p>
 
   <p>Best experienced on Chrome and Firefox. Run on Internet Explorer under your own risk ;).</p>

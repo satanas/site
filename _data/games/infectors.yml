@@ -1,10 +1,11 @@
 title: Infectors
 genre: Puzzle
 platforms: Web
-engine: Phaser (javascript)
+engine: Phaser
+languages: Javascript
 release_date: March 14th, 2015
 license: CC BY-NC-SA 4.0
-image: infectors-screenshot.png
+local_image: infectors-screenshot.png
 play_url: http://satanas.github.io/infectors/
 source_code_url: https://github.com/satanas/infectors
 description: |

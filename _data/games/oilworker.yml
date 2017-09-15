@@ -1,10 +1,11 @@
 title: OilWorker
 genre: Puzzle
 platforms: Desktop (Linux, Windows, OSX)
-engine: Pygame (python)
+engine: Pygame
+languages: Python
 release_date: February 25th, 2008
 license: GPL v3
-image: oilworker-screenshot.png
+local_image: oilworker-screenshot.png
 source_code_url: http://sourceforge.net/projects/oilworker/files/latest/download
 description: |
   <p><strong>OilWorker</strong> is an addictive and challenging puzzle game where you get contracts to build a pipeline 
