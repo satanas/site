@@ -11,7 +11,7 @@ source_code_url: https://github.com/satanas/please-die
 zip_url: https://github.com/satanas/please-die/blob/master/min/please-die-js13k-2015.zip
 tag: js13k
 description: |
-  <p>This was my entry for the 2015 edition of the <a href="http://2015.js13kgames.com" alt="Js13kGames" target="_blank">Js13kGames compo</a>, a
+  <p>This was my entry for the <a href="http://2015.js13kgames.com" alt="Js13kGames" target="_blank">Js13kGames 2015</a>, a
   Javascript coding competition for HTML5 Game Developers where the file size limit is set to a maximum of 13
   kilobytes (compressed and minified). The theme for this year was <strong>Reversed</strong> and it took me ~113
   hours to complete the game with a final size of <strong>11848 bytes</strong>. Please, die finished in the 34th

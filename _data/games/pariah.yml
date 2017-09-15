@@ -11,7 +11,7 @@ source_code_url: https://github.com/satanas/pariah
 zip_url: https://github.com/satanas/pariah/blob/master/pariah.zip
 tag: js13k
 description: |
-  <p>This was my first entry for the <a href="http://2014.js13kgames.com" alt="Js13kGames" target="_blank">Js13kGames compo 2014</a>, a
+  <p>This was my entry for the <a href="http://2014.js13kgames.com" alt="Js13kGames" target="_blank">Js13kGames 2014</a>, a
   Javascript coding competition for HTML5 Game Developers where the file size limit is set to a maximum of 13
   kilobytes (compressed and minified). The theme for 2014 was <strong>Elements</strong>, the final size of the
   package was <strong>12793 bytes</strong> and it finished in the 73rd position of 129 participants.</p>

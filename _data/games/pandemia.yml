@@ -10,7 +10,7 @@ source_code_url: https://github.com/satanas/pandemia
 zip_url: https://github.com/satanas/pandemia/raw/master/min/pandemia.zip
 tag: js13k
 description: |
-  <p>This was my entry for the 2017 edition of the <a href="http://2016.js13kgames.com" alt="Js13kGames" target="_blank">js13kGames compo</a>,
+  <p>This was my entry for the <a href="http://2016.js13kgames.com" alt="Js13kGames" target="_blank">js13kGames 2017</a>,
   a JavaScript coding competition for HTML5 Game Developers where the file size limit is set to a maximum of 13 kb
   (13312 bytes) and no external libraries are allowed. The theme for 2017 was <strong>Lost</strong>.</p>
 

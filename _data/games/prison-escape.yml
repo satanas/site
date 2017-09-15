@@ -11,7 +11,7 @@ source_code_url: https://github.com/satanas/prison-escape
 zip_url: https://github.com/satanas/prison-escape/raw/master/min/prison-break.zip
 tag: js13k
 description: |
-  <p>This was my entry for the 2016 edition of the <a href="http://2016.js13kgames.com" alt="Js13kGames" target="_blank">js13kGames compo</a>,
+  <p>This was my entry for the <a href="http://2016.js13kgames.com" alt="Js13kGames" target="_blank">js13kGames 2016</a>,
   a Javascript coding competition for HTML5 Game Developers where the file size limit is set to a maximum of 13 
   kb (13312 bytes) and no external libraries are allowed. The theme for this year was <strong>Glitch</strong> and it
   took me 37 hours 42 min to complete the game with a final size of <strong>11873 bytes</strong>.</p>
