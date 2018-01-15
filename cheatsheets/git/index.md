@@ -100,6 +100,14 @@ git push origin :<tag_name>
 git checkout -b <branch_name> <tag_name>
 ~~~
 
+### Find the tag(s) associated with a given commit
+
+~~~bash
+git tag --contains <commit_id>
+# Or
+git describe --contains <commit_id>
+~~~
+
 ### Clean local repo
 
 ~~~bash
