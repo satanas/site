@@ -161,6 +161,12 @@ git reset --hard
 git reset --soft HEAD^
 ~~~
 
+### Undo commit amend
+~~~bash
+# HEAD@{1} gives you the commit that HEAD pointed at before
+git reset --soft HEAD@{1}
+~~~
+
 ### Blame
 
 ~~~bash
