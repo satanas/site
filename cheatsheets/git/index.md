@@ -35,6 +35,10 @@ git diff --staged
 
 # Between working area and some other branch
 git diff <remote>/<branch>
+
+# Between working area and stashed changes
+git stash show -p
+git stash show -p stash@{1}
 ~~~
 
 ### Create branch and checkout
