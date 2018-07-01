@@ -1,7 +1,8 @@
-var $hero;
+var $hero, videoContainer;
 
 window.addEventListener('load', () => {
   $hero = document.getElementsByClassName('hero')[0];
+  $videoContainer = document.getElementsByClassName('video-container')[0];
   resize();
 });
 
@@ -10,7 +11,10 @@ window.addEventListener('resize', () => {
 });
 
 function resize() {
-  var heroHeight = parseInt(document.body.clientWidth / 1.966);
+  var width = document.body.clientWidth;
+  var heroHeight = parseInt(width / 1.966);
+  var videoContainerHeight = parseInt((width - (width * 0.20))/ 1.77);
+
   $hero.style.height = heroHeight + 'px';
-  console.log(heroHeight);
+  $videoContainer.style.height = videoContainerHeight + 'px';
 }
