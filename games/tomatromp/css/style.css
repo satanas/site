@@ -13,7 +13,7 @@
 }
 .badge > a > img {
   width: 100%;
-  max-width: 260px;
+  max-width: 200px;
 }
 .trailer {
   text-align: center;
@@ -60,6 +60,9 @@ footer > p {
 @media (min-width: 550px) {
   footer > p {
     font-size: 1.2rem;
+  }
+  .badge > a > img {
+    max-width: 260px;
   }
 }
 
