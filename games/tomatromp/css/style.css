@@ -5,6 +5,9 @@
   background-image: url('../images/background-1.png');
   background-size: cover;
 }
+.title {
+  width: 100%;
+}
 .badge {
   text-align: center;
 }
@@ -15,7 +18,7 @@
 .trailer {
   text-align: center;
   padding: 3rem 0 3rem 0;
-  background-color: green;
+  background-color: #84df5c;
 }
 .video-container {
   position: relative;
