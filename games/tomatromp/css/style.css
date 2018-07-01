@@ -1,6 +1,16 @@
+.container {
+  width: 90%;
+}
 .hero {
   background-image: url('../images/background-1.png');
   background-size: cover;
+}
+.badge {
+  text-align: center;
+}
+.badge > a > img {
+  width: 100%;
+  max-width: 260px;
 }
 .trailer {
   text-align: center;
