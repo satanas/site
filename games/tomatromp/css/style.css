@@ -1,3 +1,11 @@
+body {
+  color: green;
+  /*text-shadow: 1px 1px black;*/
+  font-size: 3rem;
+  font-family: 'Chewy', cursive;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+}
 .container {
   width: 90%;
 }
@@ -33,12 +41,26 @@
   height: 100%;
 }
 .studio {
+  text-align: center;
   padding: 3rem 0;
-  background-color: #84df5c;
+  background-color: black;
+}
+.announce {
+  margin-bottom: 0;
+}
+.logo {
+  width: 100%;
+}
+.made-with {
+  width: 45%;
+}
+.downloads {
+  padding-top: 5rem;
 }
 .press-kit {
   padding: 4rem 0;
   background-color: #84df5c;
+  font-size: 2rem;
 }
 .press-kit-button {
   text-align: center;
@@ -49,12 +71,14 @@
 footer {
   padding: 1rem;
   text-align: center;
-  background-color: #84df5c;
+  background-color: black;
 }
 footer > p {
+  font-family: Verdana, sans-serif;
+  text-shadow: none;
   margin: 0;
   font-size: 0.9rem;
-  color: green;
+  color: white;
 }
 
 /* Bigger than 550 */
@@ -64,6 +88,9 @@ footer > p {
   }
   .badge > a > img {
     max-width: 260px;
+  }
+  .logo {
+    width: 100%;
   }
 }
 
