@@ -2,7 +2,6 @@
 layout: base
 title: "How To Prototype A Game In Under 7 Days"
 syntax_highlight: true
-comments: true
 social_buttons: true
 ---
 ## Setup: Rapid is a State of Mind

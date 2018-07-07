@@ -2,7 +2,6 @@
 layout: base
 title: "How To Make Your Game Juicy"
 syntax_highlight: true
-comments: true
 social_buttons: true
 ---
 This document collects a series of tips and definitions that will help you make your game juicy.
