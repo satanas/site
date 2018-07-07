@@ -5,8 +5,6 @@ syntax_highlight: true
 comments: true
 social_buttons: true
 ---
-# How To Prototype A Game In Under 7 Days
-
 ## Setup: Rapid is a State of Mind
 
 * Embrace the Possibility of Failure - it Encourages Creative Risk Taking
