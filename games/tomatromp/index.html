@@ -1,4 +1,8 @@
 ---
+title: Tomatromp
+description: Throw tomatoes to mean people
+url: http://satanas.io/games/tomatromp
+feature_image: https://lh3.googleusercontent.com/3oBqUxsvif56XJ09Zlej-MhVrt2T046uZE5Sv24f71zXCaKxm9_ijM-nfkOv8x6K9cfHZkNwea7xTXGVuN__M-pyGZl1nawFd0us7aXTE6hyybsGlzqzmWiGpQcs8j4HlzdLi9wnnLt7ds1U9D5YdwUPzxdN8u5KL66DgzljjZycyqVejh35szey3oCgxjjh3BOvk-lHMKi6V5IHkFk1nKQ9CyNB5ohioyLSWIKi77saNUabflSOcTWkfqk3kQYht7sfpaVuJqxYof4ai1ceItI_1kmx04tX5yYMMfyGScJoLRdIfMDDeIos8Zo6D4pVAvCNkrhIP-6q_TmeFWT2j0WqatCxTiwpSWX3S2_6l5tViVRdUJesyS1XkD9J8zzzFSXb91TXZDtYIKK8dXCagH7hXzSBxbH-ijXTALuLd0x47FTlFdVbgtbaG8DEJChC6MwSwvt5snax1p2ZfS1hQMFHUyMZAi6GWwLyj9-YvnnVVvZtCIhT2nzrmtJXuOMJxUKP7IvV3pQbH44HMXdQ974BdmpvJnYZZQP_7YLED26DqOQ6e0WY17YKpbqUoOUcxZpxC6MgtZez2Hq8Q7msO3321pmZ61uJluQO0m4=w630-h500-no
 itch_url: https://satanas82.itch.io/tomatromp
 google_play_url: https://play.google.com/store/apps/details?id=com.satanas.tomatromp
 app_store_url: https://itunes.apple.com/us/app/tomatromp/id1418949723?ls=1&mt=8
@@ -6,9 +10,17 @@ app_store_url: https://itunes.apple.com/us/app/tomatromp/id1418949723?ls=1&mt=8
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Tomatrump</title>
+    <title>{{ page.title }}</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="{{ page.description }}">
+    <meta property="og:image" content="{{ page.feature_image }}">
+    <meta property="og:url" content="{{ page.url }}">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="{{ page.description }}">
+    <meta name="twitter:image" content="{{ page.feature_image }}">
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/style.css">
