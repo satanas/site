@@ -75,6 +75,11 @@ git branch -D <branch>
 git push origin :<branch_name>
 ~~~
 
+### List all merged branches
+~~~bash
+git branch --merged
+~~~
+
 ### Create tag
 
 ~~~bash

@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/satanas
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://satanas.io
+  * I am satanas (https://keybase.io/satanas) on keybase.
+  * I have a public key ASCFOrPQiXTtckgBaJEw4Z9lbgQJEMHrOZe657PwiWMN9go
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120853ab3d08974ed724801689130e19f656e040910c1eb3997bae7b3f089630df60a",
+      "host": "keybase.io",
+      "kid": "0120853ab3d08974ed724801689130e19f656e040910c1eb3997bae7b3f089630df60a",
+      "uid": "70220fc348ecb85e09628034e998ee00",
+      "username": "satanas"
+    },
+    "merkle_root": {
+      "ctime": 1552428346,
+      "hash": "5bc5c29cef72cd56642a1af3342a947ff23d0b28342023aad353319965d48a9be34ca86dd7e4734d63351132ff860ccc1e205e159b1e81d61f5e9e9f2b84aea0",
+      "hash_meta": "bbe12f7ba8219569084baab2936af1f3473b1d639bce191f45ab971340ebd9e3",
+      "seqno": 4934837
+    },
+    "service": {
+      "entropy": "Sda39uUCD9c5de0vI+OxRuwJ",
+      "hostname": "satanas.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.1.2"
+  },
+  "ctime": 1552428360,
+  "expire_in": 504576000,
+  "prev": "c811a0ae0743825cabe83b2873fe48402b14843c86c2b4300f5cd2913eb0e416",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEghTqz0Il07XJIAWiRMOGfZW4ECRDB6zmXuuez8IljDfYKp3BheWxvYWTESpcCCsQgyBGgrgdDglyr6Dsoc/5IQCsUhDyGwrQwD1zSkT6w5BbEIAadFgOiS+O4SRPQHQLXKOq7CfAECpJI8GDeXFZHJM05AgHCo3NpZ8RA+Ej+I/V8Lh7/0ACggfuQcdtub6g3upTLnB83yzA1DV8JaJnYQb7ifNkE8HE6Dwf9xNw/RR0ClEOCnh8vADaUC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAGbq1a5ViFbYyfHDwlUD2eSdO2syIyqsgt+EbV7+hQLo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/satanas
+
+==================================================================
