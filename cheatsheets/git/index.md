@@ -195,6 +195,12 @@ git commit --amend
 git commit --amend --author "Your name <your.email@address.com>"
 ~~~
 
+### Amend last commit date
+
+~~~bash
+git commit  --amend --date="$(date -R)"
+~~~
+
 ### Unstage files
 
 ~~~bash
