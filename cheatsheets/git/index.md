@@ -53,10 +53,16 @@ git checkout -b <branch_name>
 git remote add <remote_name> <repo_url>
 ~~~
 
-### Track remote branch
+### Create branch tracking a remote branch
 
 ~~~bash
 git branch -t <branch_name> <remote_name>/<remote_branch>
+~~~
+
+### Make an existing branch track a remote branch
+~~~bash
+git checkout <branch_name>
+git branch -u <remote_name>/<remote_branch>
 ~~~
 
 ### Delete local branch
