@@ -5,7 +5,9 @@ syntax_highlight: true
 social_buttons: true
 ---
 
-## We need to create impact. But, what is impact?
+One of the most important things need to create is impact, but what is impact?
+
+## What is impact?
 Impact is the measure of players believing their choices matter. To tell a good story we need to balance
 the act of maintaining a cohesive narrative, avoid exponential scaling and delivering impact.
 
