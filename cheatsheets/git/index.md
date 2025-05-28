@@ -176,6 +176,12 @@ git reset --hard
 git reset --soft HEAD^
 ~~~
 
+### Clean untracked files and directories
+
+~~~bash
+git clean -fd [-i]
+~~~
+
 ### Undo commit amend
 ~~~bash
 # HEAD@{1} gives you the commit that HEAD pointed at before
@@ -237,12 +243,6 @@ git checkout --ours <file>
 
 ~~~bash
 git revert -m 1 <commit_sha1>
-~~~
-
-### Clean untracked files from working directory
-
-~~~bash
-git clean -f [-i]
 ~~~
 
 ### Squash commits
